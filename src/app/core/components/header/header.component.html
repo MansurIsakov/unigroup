@@ -1,0 +1,26 @@
+<header class="header">
+  <div class="header__nav">
+    <div class="header__user">
+      <a routerLink="/admin" class="header-admin link"> Admin</a>
+      <li>Hey, user</li>
+    </div>
+
+    <ul class="header__links">
+      <li>
+        <a routerLink="/profile" class="link"> Profile </a>
+      </li>
+      <li v-if="!authState">
+        <a routerLink="/user-auth" class="link" Login> </a>
+      </li>
+      <li v-if="authState">
+        <a class="link"> Logout </a>
+      </li>
+    </ul>
+  </div>
+  <a routerLink="/home">
+    <img
+      src="../../../src/assets/icons/logo.svg"
+      alt="Logo"
+      class="header-logo" />
+  </a>
+</header>

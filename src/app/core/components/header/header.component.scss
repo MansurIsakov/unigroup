@@ -1,0 +1,44 @@
+.header {
+  padding: 2.5rem 0;
+  background-color: var(--primary);
+  color: var(--white);
+  font-size: 1.8rem;
+  position: relative;
+  font-weight: 300;
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5rem;
+    a.active {
+      font-weight: bold;
+    }
+  }
+  &__user {
+    display: flex;
+    align-items: center;
+  }
+  &__links {
+    display: flex;
+    li:not(:last-child) {
+      margin-right: 5rem;
+    }
+    .link {
+      color: var(--white);
+      cursor: pointer;
+    }
+  }
+}
+.header-logo {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  top: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.header-admin {
+  color: var(--white);
+  margin-right: 5rem;
+}
