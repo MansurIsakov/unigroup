@@ -2,8 +2,8 @@
   background-color: var(--primary);
   color: var(--white);
   font-size: var(--text-base);
-  position: relative;
   font-weight: 300;
+  position: relative;
   height: 80px;
 
   & a {
@@ -16,6 +16,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-weight: 300;
 
   &__col {
     display: flex;
