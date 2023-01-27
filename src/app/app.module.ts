@@ -9,6 +9,7 @@ import { HeaderComponent } from './core/components/header/header.component';
 
 // Icons
 import { FastSvgModule } from '@push-based/ngx-fast-svg';
+import { PageNotFoundComponent } from './core/components/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { FastSvgModule } from '@push-based/ngx-fast-svg';
     LoadingSpinnerComponent,
     MainComponent,
     HeaderComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,

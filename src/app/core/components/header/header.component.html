@@ -1,23 +1,23 @@
 <header class="header">
-  <div class="header__nav">
-    <div class="header__user">
-      <a routerLink="/admin" class="header-admin link"> Admin</a>
-      <li>Hey, user</li>
+  <div class="container header-nav">
+    <div class="header-nav__col">
+      <a routerLink="/admin" class="header-admin link">Admin</a>
+      <span> Hey, user </span>
     </div>
 
-    <ul class="header__links">
+    <ul class="header-nav__col">
       <li>
         <a routerLink="/profile" class="link"> Profile </a>
       </li>
-      <li v-if="!authState">
-        <a routerLink="/user-auth" class="link" Login> </a>
+      <li *ngIf="isLogged">
+        <a routerLink="/user-auth" class="link"> Login </a>
       </li>
-      <li v-if="authState">
+      <li *ngIf="!isLogged">
         <a class="link"> Logout </a>
       </li>
     </ul>
+    <a routerLink="/home" class="header-logo">
+      <fast-svg name="logo" [size]="'50'"></fast-svg>
+    </a>
   </div>
-  <a routerLink="/home" class="header-logo">
-    <fast-svg [name]="'logo'" [size]="'50'"></fast-svg>
-  </a>
 </header>
