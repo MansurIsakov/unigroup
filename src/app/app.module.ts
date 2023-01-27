@@ -8,7 +8,7 @@ import { MainComponent } from './features/main/main.component';
 import { HeaderComponent } from './core/components/header/header.component';
 
 // Icons
-import { FastSvgModule } from '@push-based/ngx-fast-svg';
+// import { FastSvgModule } from '@push-based/ngx-fast-svg';
 
 @NgModule({
   declarations: [
