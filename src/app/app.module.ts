@@ -7,6 +7,9 @@ import { LoadingSpinnerComponent } from './shared/components/loading-spinner/loa
 import { MainComponent } from './features/main/main.component';
 import { HeaderComponent } from './core/components/header/header.component';
 
+// Icons
+import { FastSvgModule } from '@push-based/ngx-fast-svg';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,7 +17,14 @@ import { HeaderComponent } from './core/components/header/header.component';
     MainComponent,
     HeaderComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    // FastSvgModule.forRoot({
+    //   url: (name: string) => `/src/assets/icons/${name}.svg`,
+    //   defaultSize: '32',
+    // }),
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
