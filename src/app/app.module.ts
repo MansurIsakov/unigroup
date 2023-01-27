@@ -8,7 +8,7 @@ import { MainComponent } from './features/main/main.component';
 import { HeaderComponent } from './core/components/header/header.component';
 
 // Icons
-// import { FastSvgModule } from '@push-based/ngx-fast-svg';
+import { FastSvgModule } from '@push-based/ngx-fast-svg';
 
 @NgModule({
   declarations: [
@@ -20,10 +20,10 @@ import { HeaderComponent } from './core/components/header/header.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    // FastSvgModule.forRoot({
-    //   url: (name: string) => `/src/assets/icons/${name}.svg`,
-    //   defaultSize: '32',
-    // }),
+    FastSvgModule.forRoot({
+      url: (name: string) => `/assets/icons/${name}.svg`,
+      defaultSize: '32',
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent],
