@@ -11,6 +11,8 @@ import { HeaderComponent } from './core/components/header/header.component';
 import { FastSvgModule } from '@push-based/ngx-fast-svg';
 import { PageNotFoundComponent } from './core/components/page-not-found/page-not-found.component';
 import { FooterComponent } from './core/components/footer/footer.component';
+import { MainCardComponent } from './features/main/components/main-card/main-card.component';
+import { BaseButtonComponent } from './shared/components/base-button/base-button.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { FooterComponent } from './core/components/footer/footer.component';
     HeaderComponent,
     PageNotFoundComponent,
     FooterComponent,
+    MainCardComponent,
+    BaseButtonComponent,
   ],
   imports: [
     BrowserModule,

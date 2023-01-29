@@ -1,0 +1,12 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.cards {
+  display: flex;
+  gap: 8rem;
+  margin-top: 4.375rem; // 70px
+}

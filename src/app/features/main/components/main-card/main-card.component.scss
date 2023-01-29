@@ -1,0 +1,24 @@
+.home-cards {
+  position: relative;
+  margin: 0.7rem 5rem 5rem 5rem;
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 2rem;
+  transition: all 0.5s;
+
+  &:hover {
+    transform: translateY(-0.7rem);
+  }
+
+  &__item {
+    background: linear-gradient(180deg, #dbe2ef 0%, #3f72af 126%);
+    padding: 50px 20px;
+    cursor: pointer;
+  }
+
+  &__title {
+    font-weight: 800;
+    font-size: var(--text-medium);
+    color: var(--white);
+  }
+}

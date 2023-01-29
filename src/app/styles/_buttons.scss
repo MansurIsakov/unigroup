@@ -1,0 +1,36 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1.5rem;
+  font-size: var(--text-sm);
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 15px;
+  border: 2px solid var(--primary);
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.filled {
+  background-color: var(--primary);
+  color: var(--white);
+
+  &:hover {
+    color: var(--primary);
+    background-color: transparent;
+  }
+}
+
+.outline {
+  color: var(--primary);
+
+  &:hover {
+    background-color: var(--primary);
+    color: var(--white);
+  }
+}
