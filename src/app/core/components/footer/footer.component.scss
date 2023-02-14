@@ -1,13 +1,14 @@
 .footer {
-  background-color: var(--primary);
+  border-top: 1px solid var(--gray);
   color: var(--white);
-  font-size: var(--text-base);
+  font-size: var(--text-sm);
   font-weight: 300;
   height: 80px;
 
   &__rights {
     font-size: var(--text-xs);
     width: 80%;
+    font-weight: 500;
   }
 
   &__nav {
@@ -19,7 +20,9 @@
 
   &__links {
     display: flex;
+    justify-content: flex-end;
     align-items: center;
+    width: 100%;
     gap: 50px;
 
     .link {

@@ -1,20 +1,20 @@
-<header class="header">
-  <div class="container header-nav">
+<header class="header container">
+  <div class="header-nav">
     <div class="header-nav__col">
-      <a routerLink="/admin" class="header-admin link">Admin</a>
+      <a routerLink="/admin" class="link">Admin</a>
       <span> Hey, user </span>
     </div>
 
     <ul class="header-nav__col">
       <li *ngIf="isLogged">
-        <a routerLink="/user-auth" class="link"> Login </a>
+        <a routerLink="/user-auth" class="btn"> Login </a>
       </li>
       <li *ngIf="!isLogged">
         <a class="link"> Logout </a>
       </li>
     </ul>
     <a routerLink="/home" class="header-logo">
-      <fast-svg name="logo" [size]="'50'"></fast-svg>
+      <fast-svg name="logo" [size]="'50'" alt="UniGroup logo - Home"></fast-svg>
     </a>
   </div>
 </header>

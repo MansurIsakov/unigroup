@@ -16,13 +16,13 @@ export class MainComponent {
   cardData: CardType[] = [
     {
       title: 'Blog Posts',
-      svgName: 'blog-card',
+      svgName: 'blog',
       desc: 'Blog Posts is a page where you can find relavant information about universities in Uzbekistan and read about their daily activities.',
       link: '/blog',
     },
     {
       title: 'Discover Universities',
-      svgName: 'about-card',
+      svgName: 'unis',
       desc: 'On this page you will be able to find all the nessacary information about university and pick the right one for your future.',
       link: '/discover',
     },

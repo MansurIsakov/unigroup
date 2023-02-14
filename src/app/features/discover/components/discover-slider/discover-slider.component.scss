@@ -1,0 +1,54 @@
+.container {
+  margin-top: 5rem;
+}
+
+.zoom-out {
+  perspective: 1000px;
+  height: 300px;
+}
+
+.zoom-out__slide div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.zoom-out__slide img {
+  width: 500px;
+  height: 450px;
+  object-fit: contain;
+  position: absolute;
+}
+
+.scroll {
+  width: 70px;
+  height: 25px;
+  border: 1px solid var(--black);
+  margin: 0 auto;
+  border-radius: 100rem;
+  position: relative;
+  margin-top: 10px;
+
+  &-circle {
+    width: 20px;
+    height: 20px;
+    background-color: var(--accent);
+    position: absolute;
+    border-radius: 50%;
+    top: 1.5px;
+    animation: moveScroll 1500ms alternate infinite both ease-in-out;
+  }
+}
+
+// Animation For Scroll Circle
+@keyframes moveScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(48px);
+  }
+}

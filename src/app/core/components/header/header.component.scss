@@ -1,13 +1,21 @@
 .header {
-  background-color: var(--primary);
   color: var(--white);
-  font-size: var(--text-base);
+  font-size: var(--text-sm);
   font-weight: 300;
   position: relative;
-  height: 80px;
+  height: 96px;
+  border-bottom: 1px solid var(--gray);
+  position: sticky;
+  top: -16px;
+  padding-top: 16px;
 
   & a {
     color: inherit;
+    transition: letter-spacing 0.2s ease-in;
+
+    &:hover {
+      letter-spacing: 0.5px;
+    }
   }
 }
 

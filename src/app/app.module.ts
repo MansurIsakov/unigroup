@@ -13,6 +13,10 @@ import { PageNotFoundComponent } from './core/components/page-not-found/page-not
 import { FooterComponent } from './core/components/footer/footer.component';
 import { MainCardComponent } from './features/main/components/main-card/main-card.component';
 import { BaseButtonComponent } from './shared/components/base-button/base-button.component';
+import { DiscoverComponent } from './features/discover/discover.component';
+import { BlogComponent } from './features/blog/blog.component';
+import { DiscoverSearchComponent } from './features/discover/components/discover-search/discover-search.component';
+import { DiscoverSliderComponent } from './features/discover/components/discover-slider/discover-slider.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +28,10 @@ import { BaseButtonComponent } from './shared/components/base-button/base-button
     FooterComponent,
     MainCardComponent,
     BaseButtonComponent,
+    DiscoverComponent,
+    BlogComponent,
+    DiscoverSearchComponent,
+    DiscoverSliderComponent,
   ],
   imports: [
     BrowserModule,
