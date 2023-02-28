@@ -18,7 +18,7 @@ export class MainComponent {
       title: 'Blog Posts',
       svgName: 'blog',
       desc: 'Blog Posts is a page where you can find relavant information about universities in Uzbekistan and read about their daily activities.',
-      link: '/blog',
+      link: '/blogs',
     },
     {
       title: 'Discover Universities',

@@ -12,7 +12,6 @@ import { FastSvgModule } from '@push-based/ngx-fast-svg';
 import { PageNotFoundComponent } from './core/components/page-not-found/page-not-found.component';
 import { FooterComponent } from './core/components/footer/footer.component';
 import { MainCardComponent } from './features/main/components/main-card/main-card.component';
-import { BaseButtonComponent } from './shared/components/base-button/base-button.component';
 import { DiscoverComponent } from './features/discover/discover.component';
 import { BlogComponent } from './features/blog/blog.component';
 import { DiscoverSearchComponent } from './features/discover/components/discover-search/discover-search.component';
@@ -27,6 +26,10 @@ import { DiscoverItemComponent } from './features/discover/components/discover-i
 import { UniversityComponent } from './features/university/university.component';
 import { UniversityCardComponent } from './features/university/components/university-card/university-card.component';
 import { UniversityInfoComponent } from './features/university/components/university-info/university-info.component';
+import { BlogListComponent } from './features/blog/components/blog-list/blog-list.component';
+import { BlogItemComponent } from './features/blog/components/blog-item/blog-item.component';
+import { BlogFilteringComponent } from './features/blog/components/blog-filtering/blog-filtering.component';
+import { PostComponent } from './features/post/post.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +40,6 @@ import { UniversityInfoComponent } from './features/university/components/univer
     PageNotFoundComponent,
     FooterComponent,
     MainCardComponent,
-    BaseButtonComponent,
     DiscoverComponent,
     BlogComponent,
     DiscoverSearchComponent,
@@ -52,6 +54,10 @@ import { UniversityInfoComponent } from './features/university/components/univer
     UniversityComponent,
     UniversityCardComponent,
     UniversityInfoComponent,
+    BlogListComponent,
+    BlogItemComponent,
+    BlogFilteringComponent,
+    PostComponent,
   ],
   imports: [
     BrowserModule,

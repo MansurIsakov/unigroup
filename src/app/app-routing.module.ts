@@ -8,6 +8,7 @@ import { DiscoverComponent } from './features/discover/discover.component';
 import { FaqComponent } from './features/faq/faq.component';
 import { MainComponent } from './features/main/main.component';
 import { PolicyComponent } from './features/policy/policy.component';
+import { PostComponent } from './features/post/post.component';
 import { UniversityComponent } from './features/university/university.component';
 
 const routes: Routes = [
@@ -25,8 +26,12 @@ const routes: Routes = [
     component: DiscoverComponent,
   },
   {
-    path: 'blog',
+    path: 'blogs',
     component: BlogComponent,
+  },
+  {
+    path: 'blogs/:id',
+    component: PostComponent,
   },
   {
     path: 'login',

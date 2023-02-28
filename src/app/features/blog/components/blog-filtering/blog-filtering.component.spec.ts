@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BaseButtonComponent } from './base-button.component';
+import { BlogFilteringComponent } from './blog-filtering.component';
 
-describe('BaseButtonComponent', () => {
-  let component: BaseButtonComponent;
-  let fixture: ComponentFixture<BaseButtonComponent>;
+describe('BlogFilteringComponent', () => {
+  let component: BlogFilteringComponent;
+  let fixture: ComponentFixture<BlogFilteringComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BaseButtonComponent ]
+      declarations: [ BlogFilteringComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(BaseButtonComponent);
+    fixture = TestBed.createComponent(BlogFilteringComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
