@@ -17,6 +17,12 @@ import { DiscoverComponent } from './features/discover/discover.component';
 import { BlogComponent } from './features/blog/blog.component';
 import { DiscoverSearchComponent } from './features/discover/components/discover-search/discover-search.component';
 import { DiscoverSliderComponent } from './features/discover/components/discover-slider/discover-slider.component';
+import { PolicyComponent } from './features/policy/policy.component';
+import { FaqComponent } from './features/faq/faq.component';
+import { AccourdionListComponent } from './core/components/accoudion/accourdion-list/accourdion-list.component';
+import { AccourdionItemComponent } from './core/components/accoudion/accourdion-item/accourdion-item.component';
+import { LoginComponent } from './features/auth/login/login.component';
+import { SignupComponent } from './features/auth/signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +38,12 @@ import { DiscoverSliderComponent } from './features/discover/components/discover
     BlogComponent,
     DiscoverSearchComponent,
     DiscoverSliderComponent,
+    PolicyComponent,
+    FaqComponent,
+    AccourdionListComponent,
+    AccourdionItemComponent,
+    LoginComponent,
+    SignupComponent,
   ],
   imports: [
     BrowserModule,
