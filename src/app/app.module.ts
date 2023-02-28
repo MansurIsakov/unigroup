@@ -16,13 +16,17 @@ import { BaseButtonComponent } from './shared/components/base-button/base-button
 import { DiscoverComponent } from './features/discover/discover.component';
 import { BlogComponent } from './features/blog/blog.component';
 import { DiscoverSearchComponent } from './features/discover/components/discover-search/discover-search.component';
-import { DiscoverSliderComponent } from './features/discover/components/discover-slider/discover-slider.component';
 import { PolicyComponent } from './features/policy/policy.component';
 import { FaqComponent } from './features/faq/faq.component';
 import { AccourdionListComponent } from './core/components/accoudion/accourdion-list/accourdion-list.component';
 import { AccourdionItemComponent } from './core/components/accoudion/accourdion-item/accourdion-item.component';
 import { LoginComponent } from './features/auth/login/login.component';
 import { SignupComponent } from './features/auth/signup/signup.component';
+import { DiscoverListComponent } from './features/discover/components/discover-list/discover-list.component';
+import { DiscoverItemComponent } from './features/discover/components/discover-item/discover-item.component';
+import { UniversityComponent } from './features/university/university.component';
+import { UniversityCardComponent } from './features/university/components/university-card/university-card.component';
+import { UniversityInfoComponent } from './features/university/components/university-info/university-info.component';
 
 @NgModule({
   declarations: [
@@ -37,13 +41,17 @@ import { SignupComponent } from './features/auth/signup/signup.component';
     DiscoverComponent,
     BlogComponent,
     DiscoverSearchComponent,
-    DiscoverSliderComponent,
     PolicyComponent,
     FaqComponent,
     AccourdionListComponent,
     AccourdionItemComponent,
     LoginComponent,
     SignupComponent,
+    DiscoverListComponent,
+    DiscoverItemComponent,
+    UniversityComponent,
+    UniversityCardComponent,
+    UniversityInfoComponent,
   ],
   imports: [
     BrowserModule,

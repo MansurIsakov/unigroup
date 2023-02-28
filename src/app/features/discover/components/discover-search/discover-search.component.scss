@@ -1,35 +1,19 @@
-.discover-search {
-  margin-top: 5rem;
-  position: relative;
-
-  input {
-    border-radius: 4px;
-    border: 1px solid transparent;
-    width: 25rem;
-    height: 2.5rem;
-    padding: 0.5rem;
-    padding-right: 2rem;
-    transition: border-color 0.5s;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-
-    &:hover {
-      border-color: var(--black);
-    }
-  }
-
-  label {
-    position: absolute;
-    right: 1rem;
-    top: 20%;
-    pointer-events: none;
-
-    img {
-      width: 12px;
-    }
-  }
+.card {
+  margin: 5rem auto 0;
+  gap: 1rem;
+  justify-content: center;
+  height: 60%;
 
   &__helper {
     font-size: var(--text-xs);
     color: darkgray;
+  }
+}
+
+.form {
+  padding-top: 0.5rem;
+
+  input {
+    padding: 1rem;
   }
 }

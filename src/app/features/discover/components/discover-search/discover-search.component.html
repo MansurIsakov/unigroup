@@ -1,15 +1,15 @@
-<form class="discover-search">
-  <input
-    type="text"
-    placeholder="Enter name of university"
-    id="search"
-    name="search"
-    required
-    [value]="searchValue" />
-  <label for="search">
-    <img src="/assets/icons/search.svg" alt="Search Icon" />
-  </label>
+<div class="card">
+  <form class="form">
+    <input
+      type="text"
+      placeholder="Enter name of university"
+      id="search"
+      name="search"
+      required
+      [value]="searchValue"
+      class="form-control__input" />
+  </form>
   <p class="discover-search__helper" (click)="setDefault()">
     Search by Name, ex. WIUT
   </p>
-</form>
+</div>

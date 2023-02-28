@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DiscoverSliderComponent } from './discover-slider.component';
+import { DiscoverListComponent } from './discover-list.component';
 
-describe('DiscoverSliderComponent', () => {
-  let component: DiscoverSliderComponent;
-  let fixture: ComponentFixture<DiscoverSliderComponent>;
+describe('DiscoverListComponent', () => {
+  let component: DiscoverListComponent;
+  let fixture: ComponentFixture<DiscoverListComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DiscoverSliderComponent ]
+      declarations: [ DiscoverListComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(DiscoverSliderComponent);
+    fixture = TestBed.createComponent(DiscoverListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
